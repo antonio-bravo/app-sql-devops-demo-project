@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
         
       - name: setup-msbuild
-        uses: microsoft/setup-msbuild@v1
+        uses: microsoft/setup-msbuild@v2
         with:
           # Folder location of where vswhere.exe is located if a self-hosted agent
           vswhere-path: # optional
