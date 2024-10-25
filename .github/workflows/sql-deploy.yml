@@ -44,7 +44,7 @@ jobs:
           echo test, and deploy your project.
       
       - name: Azure SQL Deploy
-        uses: Azure/sql-action@v1
+        uses: Azure/sql-action@v2
         with:
           # Name of the Azure SQL Server name, like Fabrikam.database.windows.net.
           server-name: ${{ secrets.AZURE_SQL_SERVER }}
